@@ -1,3 +1,27 @@
-h1 {
-  color: green;
+html {
+  font-size: 62.5% !important;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #222;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.social-links {
+}
+
+.social-links > i {
+  color: #fff;
+  font-size: 2rem;
 }
