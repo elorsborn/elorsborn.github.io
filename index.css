@@ -50,3 +50,47 @@ h1 {
 h1 + section {
   margin-top: 1.6rem;
 }
+
+.project-tiles {
+}
+
+.project-tile {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 48rem;
+  padding: 1.6rem 0;
+  text-align: center;
+}
+
+.project-tile:hover {
+  opacity: 0.9;
+}
+
+.project-tile + .project-tile {
+  /* margin-top: 2.4rem; */
+  border-top: solid 1px #222;
+}
+
+.project-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+section + section {
+  margin-top: 1.6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-tile {
+    width: 50%;
+  }
+}
