@@ -8,20 +8,45 @@ body {
 
 header {
   background-color: #222;
-  padding: 1.6rem;
+  padding: 1.6rem 3.2rem;
   display: flex;
   justify-content: space-between;
 }
 
 .header-title {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 
 .social-links {
+  display: flex;
+  align-items: center;
 }
 
-.social-links > i {
+.social-links > a > i {
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+
+i:hover {
+  opacity: 0.75;
+}
+
+.social-links > a + a {
+  margin-left: 1rem;
+}
+
+.portfolio-container {
+  padding: 1.6rem 3.2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #222;
+}
+
+h1 + section {
+  margin-top: 1.6rem;
 }
