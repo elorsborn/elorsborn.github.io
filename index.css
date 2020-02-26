@@ -74,6 +74,7 @@ h1 + section {
 .project-image {
   width: 100%;
   margin-bottom: 1rem;
+  border: solid 4px #2cb82c;
 }
 
 .project-info {
