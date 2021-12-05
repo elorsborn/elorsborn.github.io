@@ -64,7 +64,6 @@ h1 + section {
 }
 
 .project-tile + .project-tile {
-  /* margin-top: 2.4rem; */
   border-top: solid 1px #222;
 }
 
